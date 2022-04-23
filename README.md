@@ -1,29 +1,29 @@
 # NTA-Email
 A. Third-party services/technologies/libraries in use for NTA Email module:
-  1. Mailkit: https://github.com/jstedfast/MailKit
-    1.1 Mail Protocals in use:
-      1.1.1 IMAP: https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
-      1.1.2 SMTP: https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
-      1.1.3 How to enable in IMAP/SMTP servers Gmail: https://www.arclab.com/en/kb/email/how-to-enable-imap-pop3-smtp-gmail-account.html
-    1.2 Mailkit methods/class/inteface/property/etc in use:
-      1.2.1: Connect(): Establish a connection to the specified IMAP server
-      1.2.2: Authenticate(): Authenticate using the specified user name and password.
-      1.2.3: Disconnect(): Disconnect the service.
-      1.2.4: Dispose(): Releases the unmanaged resources used by the MailKit.MailService and optionally releases the managed resources.
-      1.2.5: Inbox.Open(): opens the inbox folder using the requested folder access.
-      1.2.6: SearchQuery: A specialized query for searching messages in a MailKit.IMailFolder.
-      1.2.7: UniqueId: A unique identifier for email
-      1.2.8: IMessageSummary: A summary of a message.
-      1.2.9: HeaderId: An enumeration of common header fields.
-      1.2.10: FolderAccess:  A folder access mode.
-      1.2.11: Inbox.Fetch(): Fetch the message summaries for the specified message UIDs.
-      1.2.12: Inbox.Search(): Search the folder for messages matching the specified query.
-      1.2.13: MessageSummaryItems: A bitfield of MailKit.MessageSummary fields.
-      1.2.14: MimeMessage: A MIME message.
-      1.2.15: MimeEntity: An abstract MIME entity.
-      1.2.16: MessagePart: A MIME part containing a MimeKit.MimeMessage as its content.
-      1.2.17: MimePart: A leaf-node MIME part that contains content such as the message body text or an attachment.
-      1.2.18: SendAsync(): Asynchronously send the specified message.
+  1. Mailkit: https://github.com/jstedfast/MailKit<br />
+    1.1 Mail Protocals in use:<br />
+      1.1.1 IMAP: https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol<br />
+      1.1.2 SMTP: https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol<br />
+      1.1.3 How to enable in IMAP/SMTP servers Gmail: https://www.arclab.com/en/kb/email/how-to-enable-imap-pop3-smtp-gmail-account.html<br />
+    1.2 Mailkit methods/class/inteface/property/etc in use:<br />
+      1.2.1: Connect(): Establish a connection to the specified IMAP server<br />
+      1.2.2: Authenticate(): Authenticate using the specified user name and password.<br />
+      1.2.3: Disconnect(): Disconnect the service.<br />
+      1.2.4: Dispose(): Releases the unmanaged resources used by the MailKit.MailService and optionally releases the managed resources.<br />
+      1.2.5: Inbox.Open(): opens the inbox folder using the requested folder access.<br />
+      1.2.6: SearchQuery: A specialized query for searching messages in a MailKit.IMailFolder.<br />
+      1.2.7: UniqueId: A unique identifier for email.<br />
+      1.2.8: IMessageSummary: A summary of a message.<br />
+      1.2.9: HeaderId: An enumeration of common header fields.<br />
+      1.2.10: FolderAccess:  A folder access mode.<br />
+      1.2.11: Inbox.Fetch(): Fetch the message summaries for the specified message UIDs.<br />
+      1.2.12: Inbox.Search(): Search the folder for messages matching the specified query.<br />
+      1.2.13: MessageSummaryItems: A bitfield of MailKit.MessageSummary fields.<br />
+      1.2.14: MimeMessage: A MIME message.<br />
+      1.2.15: MimeEntity: An abstract MIME entity.<br />
+      1.2.16: MessagePart: A MIME part containing a MimeKit.MimeMessage as its content.<br />
+      1.2.17: MimePart: A leaf-node MIME part that contains content such as the message body text or an attachment.<br />
+      1.2.18: SendAsync(): Asynchronously send the specified message.<br />
       
 B. Enities/Tables for NTA Email module:
   1. Email_Settings: Store email account to filter mail from Gmail and settings for this email account
