@@ -4,7 +4,7 @@ A. Third-party services/technologies/libraries in use for NTA Email module:
     1.1 Mail Protocals in use:
       1.1.1 IMAP: https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
       1.1.2 SMTP: https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
-      1.1.3 How to enable in IMAP/SMTP servers Gmail: https://support.google.com/mail/answer/7126229?hl=vi#zippy=%2Cb%C6%B0%E1%BB%9Bc-ki%E1%BB%83m-tra-%C4%91%E1%BB%83-%C4%91%E1%BA%A3m-b%E1%BA%A3o-r%E1%BA%B1ng-b%E1%BA%A1n-%C4%91%C3%A3-b%E1%BA%ADt-imap%2Cb%C6%B0%E1%BB%9Bc-thay-%C4%91%E1%BB%95i-smtp-v%C3%A0-c%C3%A1c-ch%E1%BA%BF-%C4%91%E1%BB%99-c%C3%A0i-%C4%91%E1%BA%B7t-kh%C3%A1c-trong-ch%C6%B0%C6%A1ng-tr%C3%ACnh-email-kh%C3%A1ch
+      1.1.3 How to enable in IMAP/SMTP servers Gmail: https://www.arclab.com/en/kb/email/how-to-enable-imap-pop3-smtp-gmail-account.html
     1.2 Mailkit methods/class/inteface/property/etc in use:
       1.2.1: Connect(): Establish a connection to the specified IMAP server
       1.2.2: Authenticate(): Authenticate using the specified user name and password.
